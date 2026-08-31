@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.env
+.venv/
+venv/
+
+# Temporary and bulky production assets
+*_temp/
+dds_tmp/
+png_tmp/
+*.zip
+models/*.pth
+models/*.onnx
+tools/waifu2x/
+tools/texconv/
+wow_hd_*_blp/
+master_upscaled_base/

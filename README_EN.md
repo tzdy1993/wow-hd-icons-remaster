@@ -45,12 +45,12 @@ Each scheme is packaged as a standalone full archive containing all 33,069 BLP f
 2. Click to download your preferred scheme .zip from the table above;
 3. Extract and place files into the exact destination folder:
    - **Retail Path**:  
-     X:\World of Warcraft\_retail_\Interface\ICONS\
+     F:\World of Warcraft\_retail_\Interface\ICONS\
    - **Classic Path**:  
-     X:\World of Warcraft\_classic_\Interface\ICONS\
+     F:\World of Warcraft\_classic_\Interface\ICONS\
    - **Classic Era Path**:  
-     X:\World of Warcraft\_classic_era_\Interface\ICONS\
-   *(Note: X:\ refers to your actual WoW installation drive, e.g. D:\, E:\, F:\)*
+     F:\World of Warcraft\_classic_era_\Interface\ICONS\  
+   *(Note: Replace F:\ with your actual game installation drive)*
 4. Launch the game and enjoy!
 
 > 💡 **Note**: Place directly under Interface\ICONS\, **DO NOT** put it into Interface\AddOns\.

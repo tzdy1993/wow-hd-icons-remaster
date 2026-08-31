@@ -44,12 +44,12 @@
 2. 在上方表格中点击下载你心仪的方案压缩包（.zip）；
 3. 解压压缩包，将文件放置在对应客户端的完整目标路径下：
    - **正式服路径**：  
-     X:\World of Warcraft\_retail_\Interface\ICONS\
+     F:\World of Warcraft\_retail_\Interface\ICONS\
    - **怀旧服路径**：  
-     X:\World of Warcraft\_classic_\Interface\ICONS\
+     F:\World of Warcraft\_classic_\Interface\ICONS\
    - **永久 60 级时代服路径**：  
-     X:\World of Warcraft\_classic_era_\Interface\ICONS\
-   *(注：X:\ 为你的实际魔兽安装盘符，如 D:\、E:\、F:\ 等)*
+     F:\World of Warcraft\_classic_era_\Interface\ICONS\  
+   *(注：路径前缀请替换为你的实际安装盘符，如 D:\、E:\、F:\)*
 4. 重新启动游戏即可生效！
 
 > 💡 **注意**：直接放在 Interface\ICONS\ 下即可，**切勿** 放入 Interface\AddOns\ 文件夹内。

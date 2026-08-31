@@ -1,50 +1,18 @@
-# ⚔️ World of Warcraft 12.1 Full 33,069 HD Icons AI Remaster
-### 魔兽世界 12.1 全量 33,069 原生高清 AI 超分重构图标包体系
+# ⚔️ 魔兽世界 12.1 全量 33,069 原生高清 AI 超分重构图标包体系
+### World of Warcraft 12.1 Full 33,069 HD Icons AI Remaster System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![World of Warcraft](https://img.shields.io/badge/WoW-12.1%20%7C%20Retail%20%7C%20Classic-blue.svg)](https://worldofwarcraft.blizzard.com/)
 [![Resolution](https://img.shields.io/badge/Resolution-128x128%20Native%20BLP2-green.svg)]()
 [![Performance](https://img.shields.io/badge/Performance-0%20Lua%20Memory%20%7C%200%20FPS%20Loss-brightgreen.svg)]()
+[![English](https://img.shields.io/badge/Language-English%20Version-blue.svg)](README_EN.md)
+
+[🌐 English Version / 查看英文版文档](README_EN.md)
 
 ---
 
 > 基于 **Waifu2x-CUnet（点阵融化去噪）＋ 4x_foolhardy_Remacri（艺术材质超分）** 级联神经网络，对魔兽当前全量 **33,069** 个图标进行 128px 原生 DXT5 BLP2 格式完全重构。
 > **100% 全局全系统覆盖**（动作条、法术书、背包物品、装备栏、天赋树、大秘境地下城手册、成就、坐骑、宠物、WA 提示等），0 内存占用，永不报错！
-
----
-
-## 🌐 语言切换 / Language Switcher
-
-<details>
-<summary><b>👉 点击此处切换查看【英文简介】 / Click here to expand 【English Version】</b></summary>
-
-<br>
-
-### ⚔️ World of Warcraft 12.1 Full 33,069 HD Icons AI Remaster (English Summary)
-
-An end-to-end AI Super-Resolution remaster system for all **33,069** icons in World of Warcraft 12.1.
-Powered by **Waifu2x-CUnet (artifact melting) + 4x_foolhardy_Remacri (neural texture reconstruction)** in native 128x128 DXT5 BLP2 format with full 8-level Mipmaps.
-**100% full-game coverage** (Action bars, Spellbook, Bags, Talents, Adventure Guide, Mounts, Macros, WeakAuras). Zero Lua memory, zero FPS impact, zero errors!
-
-#### 🎨 7 Distinct Style Variants
-
-| Scheme | Style Name | Visual Craft & Geometry | Best For |
-| :---: | :--- | :--- | :--- |
-| **Scheme 1** | **Solid Black** | 5.5px Solid Black Border + 21px Classic Radius | High contrast, maximum artwork pop |
-| **Scheme 2** | **Dual Inner Groove** | 2.0px Charcoal Outer + 3.5px Pure Black Groove | Dark dungeon style, sunken 3D depth |
-| **Scheme 3** | **Obsidian Bronze** | Obsidian Base + 1.2px Ancient Bronze Filigree | Classic Warcraft high-fantasy epic mood |
-| **Scheme 4** | **Charcoal Grey** | 5.0px #2a2d36 Minimalist Deep Charcoal | Highly ergonomic, subtle, perfect with default UI |
-| **Scheme 5** | **Titanium Grey** | 5.0px #484c58 Blizzard Cold Iron Grey | Industrial metallic hardness, crisp & solid |
-| **Scheme 6** | **Matte Silver** | 5.0px #737887 Light Matte Silver Grey | Ultra-clear button outlines during intense raids |
-| **Scheme 7** | **3D Keycap Master** | =8\text{px}$ Square Bevel + PBT Convex Keycap | Custom mechanical keyboard physical keycap feel |
-
-#### 🚀 Quick Installation
-1. Exit the World of Warcraft client completely;
-2. Download your preferred scheme .zip from the [Releases](https://github.com/tzdy1993/wow-hd-icons-remaster/releases) page;
-3. Extract and copy the **Interface** folder directly into your WoW root directory (_retail_ or _classic_);
-4. Launch the game and enjoy!
-
-</details>
 
 ---
 
@@ -102,7 +70,7 @@ python switch_full_pack.py 3
 
 ---
 
-## 🔬 技术原理与流水线架构 (Architecture)
+## 🔬 技术原理与流水线架构
 
 `mermaid
 graph TD
@@ -118,6 +86,6 @@ graph TD
 
 ---
 
-## 📄 开源许可证 (License)
+## 📄 开源许可证
 
 本项目代码部分基于 [MIT License](LICENSE) 开源。魔兽世界相关游戏素材知识产权归 Blizzard Entertainment 所有。

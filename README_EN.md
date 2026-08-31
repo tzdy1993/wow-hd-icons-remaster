@@ -39,7 +39,7 @@ Each scheme is packaged as a standalone full archive containing all 33,069 BLP f
 
 ---
 
-## 🚀 Quick Installation
+## 🚀 Simple Installation
 
 1. Exit the World of Warcraft client completely;
 2. Click to download your preferred scheme .zip from the table above;
@@ -50,21 +50,6 @@ Each scheme is packaged as a standalone full archive containing all 33,069 BLP f
 
 ### 🗑️ Uninstallation
 Simply delete the Interface/ICONS folder from your WoW directory.
-
----
-
-## ⚡ Fast Scheme Switcher
-
-`ash
-# Switch to Scheme 4 (Charcoal Grey)
-python switch_full_pack.py 4
-
-# Switch to Scheme 7 (3D Keycap)
-python switch_full_pack.py b2
-
-# Switch to Scheme 5 (Titanium Grey)
-python switch_full_pack.py 5
-`
 
 ---
 

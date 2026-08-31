@@ -42,13 +42,19 @@
 
 1. **完全退出** 魔兽世界游戏客户端；
 2. 在上方表格中点击下载你心仪的方案压缩包（.zip）；
-3. 解压压缩包，将里面的 **Interface** 文件夹直接复制到你的魔兽安装根目录下覆盖：
-   - **正式服路径**：World of Warcraft/_retail_/
-   - **怀旧服路径**：World of Warcraft/_classic_/（永久 60 服为 _classic_era_）
+3. 解压压缩包，将里面的 **Interface** 文件夹，直接复制粘贴到你正在游玩的魔兽版本目录中：
+   - **正式服（地心之战 / 11.0 / 12.0）**：  
+     放置在 World of Warcraft\_retail_\ 目录下（最终完整路径为 World of Warcraft\_retail_\Interface\ICONS\）
+   - **怀旧服（大灾变 / WLK / 20周年）**：  
+     放置在 World of Warcraft\_classic_\ 目录下（最终完整路径为 World of Warcraft\_classic_\Interface\ICONS\）
+   - **永久 60 级时代服（Classic Era）**：  
+     放置在 World of Warcraft\_classic_era_\ 目录下（最终完整路径为 World of Warcraft\_classic_era_\Interface\ICONS\）
 4. 重新启动游戏即可生效！
 
+> 💡 **提示**：本项目是暴雪原生贴图材质替换，**不是插件**，请直接放在版本目录下的 Interface\ 中，**切勿** 放入 Interface\AddOns\ 文件夹内。
+
 ### 🗑️ 卸载与还原
-直接删除魔兽目录下的 Interface/ICONS 文件夹即可瞬间恢复暴雪默认图标，安全无残留。
+直接删除对应版本目录下的 Interface\ICONS 文件夹即可瞬间恢复暴雪默认图标，安全无残留。
 
 ---
 

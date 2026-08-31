@@ -43,17 +43,23 @@ Each scheme is packaged as a standalone full archive containing all 33,069 BLP f
 
 1. Exit the World of Warcraft client completely;
 2. Click to download your preferred scheme .zip from the table above;
-3. Extract and copy the **Interface** folder directly into your WoW root directory:
-   - **Retail Path**: World of Warcraft/_retail_/
-   - **Classic Path**: World of Warcraft/_classic_/ (Classic Era is _classic_era_)
+3. Extract and copy the **Interface** folder directly into your WoW game version directory:
+   - **Retail (The War Within / 11.0 / 12.0)**:  
+     Place in World of Warcraft\_retail_\ (resulting in World of Warcraft\_retail_\Interface\ICONS\)
+   - **Classic (Cataclysm / WLK / Anniversary)**:  
+     Place in World of Warcraft\_classic_\ (resulting in World of Warcraft\_classic_\Interface\ICONS\)
+   - **Classic Era (Vanilla 60)**:  
+     Place in World of Warcraft\_classic_era_\ (resulting in World of Warcraft\_classic_era_\Interface\ICONS\)
 4. Launch the game and enjoy!
 
+> 💡 **Note**: This is a native texture replacement (not an addon). Place directly under Interface\, **DO NOT** put it into Interface\AddOns\.
+
 ### 🗑️ Uninstallation
-Simply delete the Interface/ICONS folder from your WoW directory.
+Simply delete the Interface\ICONS folder from the corresponding game directory.
 
 ---
 
-## 🔬 Pipeline & Architecture
+## 🔬 Technical Pipeline Architecture
 
 1. **Artifact Denoising**: Waifu2x-CUnet (Denoise 3) dissolves legacy 2004 pixel dithering and compression noise;
 2. **Neural Upscaling**: 4x_foolhardy_Remacri reconstructs 512x512 ultra-crisp master artwork;

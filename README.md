@@ -44,7 +44,7 @@
 2. 在上方表格中点击下载你心仪的方案压缩包（.zip）；
 3. 解压压缩包，将里面的 **Interface** 文件夹直接复制到你的魔兽安装根目录下覆盖：
    - **正式服路径**：World of Warcraft/_retail_/
-   - **怀旧服路径**：World of Warcraft/_classic_/
+   - **怀旧服路径**：World of Warcraft/_classic_/（永久 60 服为 _classic_era_）
 4. 重新启动游戏即可生效！
 
 ### 🗑️ 卸载与还原
@@ -52,19 +52,14 @@
 
 ---
 
-## 🔬 技术原理与架构
+## 🔬 生产流水线与技术重构架构
 
-`mermaid
-graph TD
-    A["暴雪原版 64x64 图标 (33,069 个)"] --> B["Waifu2x-CUnet Denoise 3 溶解点阵噪点"]
-    B --> C["4x_foolhardy_Remacri DirectML GPU 512x512 材质重构"]
-    C --> D["剥离暴雪原版 4.5% 泛白边缘"]
-    D --> E["7 种高精度 3D 几何光照着色器烘焙"]
-    E --> F["Lanczos 降采样至 128x128 亚像素抗锯齿平滑"]
-    F --> G["DirectX Texconv 硬件 BC3_UNORM 压缩"]
-    G --> H["打包 8 级硬件 Mipmaps 原生 BLP2 文件"]
-    H --> I["魔兽客户端 Interface/ICONS 100% 全局实装"]
-`
+1. **点阵去噪**：使用 Waifu2x-CUnet (Denoise 3) 彻底溶解 2004 年老旧点阵噪点与杂色断层；
+2. **艺术超分**：调用 4x_foolhardy_Remacri 神经网络重绘至 512x512 超清母版；
+3. **边框处理**：剥离暴雪原版 4.5% 泛白毛边，应用 7 种高精度 3D 几何与光照着色器；
+4. **平滑采样**：通过 Lanczos 算法等比凝聚至 128x128 黄金分辨率（内置亚像素抗锯齿）；
+5. **硬件压缩**：使用 DirectX Texconv 工具链烘焙生成原生 DXT5/BC3_UNORM 贴图；
+6. **金字塔打包**：写入 8 级硬件 Mipmaps 原生 BLP2 格式，实现客户端 100% 全局无缝实装。
 
 ---
 

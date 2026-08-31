@@ -45,7 +45,7 @@ Each scheme is packaged as a standalone full archive containing all 33,069 BLP f
 2. Click to download your preferred scheme .zip from the table above;
 3. Extract and copy the **Interface** folder directly into your WoW root directory:
    - **Retail Path**: World of Warcraft/_retail_/
-   - **Classic Path**: World of Warcraft/_classic_/
+   - **Classic Path**: World of Warcraft/_classic_/ (Classic Era is _classic_era_)
 4. Launch the game and enjoy!
 
 ### 🗑️ Uninstallation
@@ -53,19 +53,14 @@ Simply delete the Interface/ICONS folder from your WoW directory.
 
 ---
 
-## 🔬 Technical Pipeline Architecture
+## 🔬 Pipeline & Architecture
 
-`mermaid
-graph TD
-    A["Raw 64x64 CleanIcons (33,069 Icons)"] --> B["Waifu2x-CUnet Denoise 3 Dissolve 2004 Dithering"]
-    B --> C["4x_foolhardy_Remacri DirectML GPU 512x512 Neural Reconstruction"]
-    C --> D["Edge Trimming: Strip 4.5% Blizzard White Bleed"]
-    D --> E["Multi-scheme 3D Lighting & Geometry Baking"]
-    E --> F["Lanczos 128x128 Sub-pixel Anti-Aliasing"]
-    F --> G["DirectX Texconv Hardware BC3_UNORM Compression"]
-    G --> H["Native BLP2 Packaging with 8 Mipmap Levels"]
-    H --> I["WoW Client Interface/ICONS 100% In-Game Deployment"]
-`
+1. **Artifact Denoising**: Waifu2x-CUnet (Denoise 3) dissolves legacy 2004 pixel dithering and compression noise;
+2. **Neural Upscaling**: 4x_foolhardy_Remacri reconstructs 512x512 ultra-crisp master artwork;
+3. **Border Geometry**: Strips 4.5% Blizzard white bleed and bakes 7 distinct 3D lighting/bevel shaders;
+4. **Sub-pixel Downsampling**: Lanczos downscaling to 128x128 with sub-pixel anti-aliasing;
+5. **DirectX Compression**: Hardware-native DXT5/BC3_UNORM texture baking via Texconv;
+6. **BLP2 Packaging**: 8-level Mipmap packaging for 100% native in-game deployment.
 
 ---
 

@@ -42,39 +42,33 @@ Each scheme is packaged as a standalone full archive containing all 33,069 BLP f
 ## 🚀 Simple Installation
 
 1. Exit the World of Warcraft client completely;
-2. Click to download your preferred scheme .zip from the table above;
+2. Click to download your preferred scheme `.zip` from the table above;
 3. Extract and place files into the exact destination folder:
 
-- **Retail Path**:
-`	ext
-F:\World of Warcraft\_retail_\Interface\ICONS\
-`
+- **Retail Path**:  
+  `F:\World of Warcraft\_retail_\Interface\ICONS\`
 
-- **Classic Path**:
-`	ext
-F:\World of Warcraft\_classic_\Interface\ICONS\
-`
+- **Classic Path**:  
+  `F:\World of Warcraft\_classic_\Interface\ICONS\`
 
-- **Classic Era Path**:
-`	ext
-F:\World of Warcraft\_classic_era_\Interface\ICONS\
-`
+- **Classic Era Path**:  
+  `F:\World of Warcraft\_classic_era_\Interface\ICONS\`
 
-*(Note: Replace F:\ with your actual game installation drive)*
+*(Note: Replace `F:\` with your actual game installation drive)*
 
 4. Launch the game and enjoy!
 
-> 💡 **Note**: Place directly under Interface\ICONS\, **DO NOT** put it into Interface\AddOns\.
+> 💡 **Note**: Place directly under `Interface\ICONS\`, **DO NOT** put it into `Interface\AddOns\`.
 
 ### 🗑️ Uninstallation
-Simply delete the Interface\ICONS\ folder from your game directory.
+Simply delete the `Interface\ICONS\` folder from your game directory.
 
 ---
 
 ## 🔬 Technical Pipeline Architecture
 
-1. **Artifact Denoising**: Waifu2x-CUnet (Denoise 3) dissolves legacy 2004 pixel dithering and compression noise;
-2. **Neural Upscaling**: 4x_foolhardy_Remacri reconstructs 512x512 ultra-crisp master artwork;
+1. **Artifact Denoising**: `Waifu2x-CUnet (Denoise 3)` dissolves legacy 2004 pixel dithering and compression noise;
+2. **Neural Upscaling**: `4x_foolhardy_Remacri` reconstructs 512x512 ultra-crisp master artwork;
 3. **Border Geometry**: Strips 4.5% Blizzard white bleed and bakes 7 distinct 3D lighting/bevel shaders;
 4. **Sub-pixel Downsampling**: Lanczos downscaling to 128x128 with sub-pixel anti-aliasing;
 5. **DirectX Compression**: Hardware-native DXT5/BC3_UNORM texture baking via Texconv;

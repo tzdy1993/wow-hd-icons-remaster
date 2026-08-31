@@ -41,39 +41,33 @@
 ## 🚀 极简安装指南
 
 1. **完全退出** 魔兽世界游戏客户端；
-2. 在上方表格中点击下载你心仪的方案压缩包（.zip）；
+2. 在上方表格中点击下载你心仪的方案压缩包（`.zip`）；
 3. 解压压缩包，将文件放置在对应客户端的完整目标路径下：
 
-- **正式服路径**：
-`	ext
-F:\World of Warcraft\_retail_\Interface\ICONS\
-`
+- **正式服路径**：  
+  `F:\World of Warcraft\_retail_\Interface\ICONS\`
 
-- **怀旧服路径**：
-`	ext
-F:\World of Warcraft\_classic_\Interface\ICONS\
-`
+- **怀旧服路径**：  
+  `F:\World of Warcraft\_classic_\Interface\ICONS\`
 
-- **永久 60 级时代服路径**：
-`	ext
-F:\World of Warcraft\_classic_era_\Interface\ICONS\
-`
+- **永久 60 级时代服路径**：  
+  `F:\World of Warcraft\_classic_era_\Interface\ICONS\`
 
-*(注：路径开头的 F:\ 请替换为你电脑上的实际安装盘符，如 C:\、D:\、E:\)*
+*(注：路径开头的 `F:\` 请替换为你电脑上的实际安装盘符，如 `C:\`、`D:\`、`E:\`)*
 
 4. 重新启动游戏即可生效！
 
-> 💡 **注意**：直接放在 Interface\ICONS\ 下即可，**切勿** 放入 Interface\AddOns\ 文件夹内。
+> 💡 **注意**：直接放在 `Interface\ICONS\` 下即可，**切勿** 放入 `Interface\AddOns\` 文件夹内。
 
 ### 🗑️ 卸载与还原
-直接删除目标路径下的 Interface\ICONS\ 文件夹即可瞬间恢复暴雪默认图标，安全无残留。
+直接删除目标路径下的 `Interface\ICONS\` 文件夹即可瞬间恢复暴雪默认图标，安全无残留。
 
 ---
 
 ## 🔬 生产流水线与技术重构架构
 
-1. **点阵去噪**：使用 Waifu2x-CUnet (Denoise 3) 彻底溶解 2004 年老旧点阵噪点与杂色断层；
-2. **艺术超分**：调用 4x_foolhardy_Remacri 神经网络重绘至 512x512 超清母版；
+1. **点阵去噪**：使用 `Waifu2x-CUnet (Denoise 3)` 彻底溶解 2004 年老旧点阵噪点与杂色断层；
+2. **艺术超分**：调用 `4x_foolhardy_Remacri` 神经网络重绘至 512x512 超清母版；
 3. **边框处理**：剥离暴雪原版 4.5% 泛白毛边，应用 7 种高精度 3D 几何与光照着色器；
 4. **平滑采样**：通过 Lanczos 算法等比凝聚至 128x128 黄金分辨率（内置亚像素抗锯齿）；
 5. **硬件压缩**：使用 DirectX Texconv 工具链烘焙生成原生 DXT5/BC3_UNORM 贴图；

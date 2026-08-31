@@ -43,19 +43,20 @@ Each scheme is packaged as a standalone full archive containing all 33,069 BLP f
 
 1. Exit the World of Warcraft client completely;
 2. Click to download your preferred scheme .zip from the table above;
-3. Extract and copy the **Interface** folder directly into your WoW game version directory:
-   - **Retail (The War Within / 11.0 / 12.0)**:  
-     Place in World of Warcraft\_retail_\ (resulting in World of Warcraft\_retail_\Interface\ICONS\)
-   - **Classic (Cataclysm / WLK / Anniversary)**:  
-     Place in World of Warcraft\_classic_\ (resulting in World of Warcraft\_classic_\Interface\ICONS\)
-   - **Classic Era (Vanilla 60)**:  
-     Place in World of Warcraft\_classic_era_\ (resulting in World of Warcraft\_classic_era_\Interface\ICONS\)
+3. Extract and place files into the exact destination folder:
+   - **Retail Path**:  
+     X:\World of Warcraft\_retail_\Interface\ICONS\
+   - **Classic Path**:  
+     X:\World of Warcraft\_classic_\Interface\ICONS\
+   - **Classic Era Path**:  
+     X:\World of Warcraft\_classic_era_\Interface\ICONS\
+   *(Note: X:\ refers to your actual WoW installation drive, e.g. D:\, E:\, F:\)*
 4. Launch the game and enjoy!
 
-> 💡 **Note**: This is a native texture replacement (not an addon). Place directly under Interface\, **DO NOT** put it into Interface\AddOns\.
+> 💡 **Note**: Place directly under Interface\ICONS\, **DO NOT** put it into Interface\AddOns\.
 
 ### 🗑️ Uninstallation
-Simply delete the Interface\ICONS folder from the corresponding game directory.
+Simply delete the Interface\ICONS\ folder from your game directory.
 
 ---
 

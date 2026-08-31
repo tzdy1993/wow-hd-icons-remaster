@@ -31,9 +31,9 @@
 | **方案 1** | **实心纯黑版** | 5.5px 纯黑高对比外框 + 21px 经典圆角，原画主体最醒目 | [点击下载 Scheme 1](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_1_Solid_Black.zip) |
 | **方案 2** | **双层内嵌暗槽版** | 2.0px 炭灰外圈 + 3.5px 纯黑凹槽，双层深凹立体下陷感 | [点击下载 Scheme 2](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_2_Inner_Groove.zip) |
 | **方案 3** | **曜石暗青铜微丝版** | 纯黑曜石底框 + 1.2px 暗哑古青铜金丝，史诗奇幻感 | [点击下载 Scheme 3](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_3_Obsidian_Bronze.zip) |
-| **方案 4** | **深空炭灰大师版** | 5.0px #2a2d36 极简深炭灰，极度耐看，与原生 UI 完美契合 | [点击下载 Scheme 4](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_4_Charcoal_Grey.zip) |
-| **方案 5** | **暴雪钛金铁灰版** | 5.0px #484c58 暴雪经典冷铁灰，工业硬派金属质感 | [点击下载 Scheme 5](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_5_Titanium_Grey.zip) |
-| **方案 6** | **磨砂哑光银灰版** | 5.0px #737887 醒目中浅哑光银灰，按键轮廓边界最清晰 | [点击下载 Scheme 6](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_6_Silver_Grey.zip) |
+| **方案 4** | **深空炭灰大师版** | 5.0px 极简深炭灰外框，低调柔和耐看，与原生暗色 UI 完美契合 | [点击下载 Scheme 4](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_4_Charcoal_Grey.zip) |
+| **方案 5** | **暴雪钛金铁灰版** | 5.0px 暴雪经典冷铁灰外框，工业硬派金属质感 | [点击下载 Scheme 5](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_5_Titanium_Grey.zip) |
+| **方案 6** | **磨砂哑光银灰版** | 5.0px 哑光银灰外框，高对比中浅色系，按键轮廓边界最清晰 | [点击下载 Scheme 6](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_6_Silver_Grey.zip) |
 | **方案 7** | **3D 机械键帽大师版** | R=8px 方形微导角 + 宽斜坡四棱台 + 剥离白边深炭灰修边 | [点击下载 Scheme 7](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_7_3D_Keycap.zip) |
 
 ---

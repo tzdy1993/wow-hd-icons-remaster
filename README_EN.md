@@ -1,4 +1,4 @@
-# ⚔️ World of Warcraft 12.1 Full 33,069 HD Icons AI Remaster System
+# World of Warcraft 12.1 Full 33,069 HD Icons AI Remaster System
 ### 魔兽世界 12.1 全量 33,069 原生高清 AI 超分重构图标包体系
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -17,37 +17,39 @@
 
 ---
 
-## 🖼️ Style Matrix Showcase
+## 🖼️ Style Showcase
 
 ![All 7 Styles Matrix Comparison](assets/pure_icon_matrix_7_schemes_poster.png)
 
 ---
 
-## 🎨 7 Distinct Style Variants
+## 📦 Direct Download Links & 7 Distinct Style Variants
 
-| Scheme | Style Name | Visual Craft & Geometry | Best For |
-| :---: | :--- | :--- | :--- |
-| **Scheme 1** | **Solid Black** | 5.5px Solid Black Border + 21px Classic Radius | High contrast, maximum artwork pop |
-| **Scheme 2** | **Dual Inner Groove** | 2.0px Charcoal Outer + 3.5px Pure Black Groove | Dark dungeon style, sunken 3D depth |
-| **Scheme 3** | **Obsidian Bronze** | Obsidian Base + 1.2px Ancient Bronze Filigree | Classic Warcraft high-fantasy epic mood |
-| **Scheme 4** | **Charcoal Grey** | 5.0px #2a2d36 Minimalist Deep Charcoal | Highly ergonomic, subtle, perfect with default UI |
-| **Scheme 5** | **Titanium Grey** | 5.0px #484c58 Blizzard Cold Iron Grey | Industrial metallic hardness, crisp & solid |
-| **Scheme 6** | **Matte Silver** | 5.0px #737887 Light Matte Silver Grey | Ultra-clear button outlines during intense raids |
-| **Scheme 7** | **3D Keycap Master** | =8\text{px}$ Square Bevel + PBT Convex Keycap | Custom mechanical keyboard physical keycap feel |
+Each scheme is packaged as a standalone full archive containing all 33,069 BLP files:
+
+| Scheme | Style Name | Visual Craft & Geometry | Official Release Download |
+| :---: | :--- | :--- | :---: |
+| **Scheme 1** | **Solid Black** | 5.5px Solid Black Border + 21px Classic Radius, maximum artwork pop | [Download Scheme 1](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_1_Solid_Black.zip) |
+| **Scheme 2** | **Dual Inner Groove** | 2.0px Charcoal Outer + 3.5px Pure Black Groove, sunken 3D depth | [Download Scheme 2](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_2_Inner_Groove.zip) |
+| **Scheme 3** | **Obsidian Bronze** | Obsidian Base + 1.2px Ancient Bronze Filigree, epic fantasy mood | [Download Scheme 3](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_3_Obsidian_Bronze.zip) |
+| **Scheme 4** | **Charcoal Grey** | 5.0px #2a2d36 Minimalist Deep Charcoal, highly ergonomic & subtle | [Download Scheme 4](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_4_Charcoal_Grey.zip) |
+| **Scheme 5** | **Titanium Grey** | 5.0px #484c58 Blizzard Cold Iron Grey, industrial metallic hardness | [Download Scheme 5](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_5_Titanium_Grey.zip) |
+| **Scheme 6** | **Matte Silver** | 5.0px #737887 Light Matte Silver Grey, ultra-clear button outlines | [Download Scheme 6](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_6_Silver_Grey.zip) |
+| **Scheme 7** | **3D Keycap Master** | R=8px Square Bevel + PBT Convex Keycap + Charcoal Trim | [Download Scheme 7](https://github.com/tzdy1993/wow-hd-icons-remaster/releases/download/v1.0.0/WoW_12.1_HD_Icons_Scheme_7_3D_Keycap.zip) |
 
 ---
 
 ## 🚀 Quick Installation
 
 1. Exit the World of Warcraft client completely;
-2. Download your preferred scheme .zip from the [Releases](https://github.com/tzdy1993/wow-hd-icons-remaster/releases) page;
+2. Click to download your preferred scheme .zip from the table above;
 3. Extract and copy the **Interface** folder directly into your WoW root directory:
-   - **Retail Path**: World of Warcraft\_retail_\
-   - **Classic Path**: World of Warcraft\_classic_\
+   - **Retail Path**: World of Warcraft/_retail_/
+   - **Classic Path**: World of Warcraft/_classic_/
 4. Launch the game and enjoy!
 
 ### 🗑️ Uninstallation
-Simply delete the Interface\ICONS folder from your WoW directory.
+Simply delete the Interface/ICONS folder from your WoW directory.
 
 ---
 
@@ -70,14 +72,14 @@ python switch_full_pack.py 5
 
 `mermaid
 graph TD
-    A[Raw 64x64 CleanIcons 33,069 Icons] --> B[Waifu2x-CUnet Denoise 3 Dissolve 2004 Dithering]
-    B --> C[4x_foolhardy_Remacri DirectML GPU 512x512 Upscaling]
-    C --> D[Edge Trimming: Strip 4.5% Blizzard Bleed]
-    D --> E[Multi-scheme 3D Lighting & Geometry Baking]
-    E --> F[Lanczos 128x128 Sub-pixel Anti-Aliasing]
-    F --> G[DirectX Texconv Hardware BC3_UNORM Compression]
-    G --> H[Native BLP2 Packaging with 8 Mipmap Levels]
-    H --> I[WoW Client Interface/ICONS 100% In-Game Coverage]
+    A["Raw 64x64 CleanIcons (33,069 Icons)"] --> B["Waifu2x-CUnet Denoise 3 Dissolve 2004 Dithering"]
+    B --> C["4x_foolhardy_Remacri DirectML GPU 512x512 Neural Reconstruction"]
+    C --> D["Edge Trimming: Strip 4.5% Blizzard White Bleed"]
+    D --> E["Multi-scheme 3D Lighting & Geometry Baking"]
+    E --> F["Lanczos 128x128 Sub-pixel Anti-Aliasing"]
+    F --> G["DirectX Texconv Hardware BC3_UNORM Compression"]
+    G --> H["Native BLP2 Packaging with 8 Mipmap Levels"]
+    H --> I["WoW Client Interface/ICONS 100% In-Game Deployment"]
 `
 
 ---

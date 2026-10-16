@@ -2,7 +2,7 @@
 ### World of Warcraft 12.1.5 Full 33,139 HD Icons AI Remaster System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![World of Warcraft](https://img.shields.io/badge/WoW-12.1.5%20%7C%20Retail%20Only-blue.svg)](https://worldofwarcraft.blizzard.com/)
+[![World of Warcraft](https://img.shields.io/badge/WoW-12.1.5-blue.svg)](https://worldofwarcraft.blizzard.com/)
 [![Resolution](https://img.shields.io/badge/Resolution-128x128%20Native%20BLP2-green.svg)]()
 [![Performance](https://img.shields.io/badge/Performance-0%20Lua%20Memory%20%7C%200%20FPS%20Loss-brightgreen.svg)]()
 [![English](https://img.shields.io/badge/Language-English%20Version-blue.svg)](README_EN.md)
@@ -42,9 +42,9 @@
 
 1. **完全退出** 魔兽世界游戏客户端；
 2. 在上方表格中点击下载你心仪的方案压缩包（`.zip`）；
-3. 解压压缩包，将文件放置在正式服客户端的完整目标路径下：
+3. 解压压缩包，将文件放置在客户端的完整目标路径下：
 
-- **安装目标路径 (仅支持正式服)**：  
+- **客户端安装路径**：  
   `F:\World of Warcraft\_retail_\Interface\ICONS\`  
 *(注：路径开头的 `F:\` 请替换为你电脑上的实际安装盘符，如 `C:\`、`D:\`、`E:\`)*
 

@@ -2,7 +2,7 @@
 ### 魔兽世界 12.1.5 全量 33,139 原生高清 AI 超分重构图标包体系
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![World of Warcraft](https://img.shields.io/badge/WoW-12.1.5%20%7C%20Retail%20%7C%20Classic-blue.svg)](https://worldofwarcraft.blizzard.com/)
+[![World of Warcraft](https://img.shields.io/badge/WoW-12.1.5%20%7C%20Retail%20Only-blue.svg)](https://worldofwarcraft.blizzard.com/)
 [![Resolution](https://img.shields.io/badge/Resolution-128x128%20Native%20BLP2-green.svg)]()
 [![Performance](https://img.shields.io/badge/Performance-0%20Lua%20Memory%20%7C%200%20FPS%20Loss-brightgreen.svg)]()
 [![Chinese](https://img.shields.io/badge/Language-简体中文-red.svg)](README.md)
@@ -43,17 +43,10 @@ Each scheme is packaged as a standalone full archive containing all 33,139 BLP f
 
 1. Exit the World of Warcraft client completely;
 2. Click to download your preferred scheme `.zip` from the table above;
-3. Extract and place files into the exact destination folder:
+3. Extract and place files into the World of Warcraft Retail destination folder:
 
-- **Retail Path**:  
-  `F:\World of Warcraft\_retail_\Interface\ICONS\`
-
-- **Classic Path**:  
-  `F:\World of Warcraft\_classic_\Interface\ICONS\`
-
-- **Classic Era Path**:  
-  `F:\World of Warcraft\_classic_era_\Interface\ICONS\`
-
+- **Target Path (Retail Only)**:  
+  `F:\World of Warcraft\_retail_\Interface\ICONS\`  
 *(Note: Replace `F:\` with your actual game installation drive)*
 
 4. Launch the game and enjoy!
